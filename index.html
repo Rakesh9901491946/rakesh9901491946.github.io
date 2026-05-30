@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rakesh Nagaragatta Jayanna | AI, Data & ML Portfolio</title>
+  <meta name="description" content="Bilingual portfolio of Rakesh Nagaragatta Jayanna: AI, Data Engineering, RAG, LLMs, Cloud and ML projects." />
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home">Rakesh NJ</a>
+    <nav>
+      <a href="#about" data-i18n="nav_about">About</a>
+      <a href="#skills" data-i18n="nav_skills">Skills</a>
+      <a href="#projects" data-i18n="nav_projects">Projects</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <div class="lang-switch">
+      <button id="enBtn" class="active">EN</button>
+      <button id="deBtn">DE</button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow" data-i18n="hero_tag">AI Engineer | Data Professional | RAG & LLM Applications</p>
+        <h1 data-i18n="hero_title">Building practical AI systems that create measurable business impact.</h1>
+        <p data-i18n="hero_desc">I design production-minded AI and data solutions across retrieval systems, cloud pipelines, and applied ML. Open to AI Engineer, Data Scientist, and Data Engineer roles in Germany.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#projects" data-i18n="hero_cta_projects">Explore Projects</a>
+          <a class="btn ghost" href="./assets/Rakesh_SII_Group_CV.pdf" target="_blank" rel="noreferrer">CV</a>
+          <a class="btn ghost" href="./assets/Rakesh_resume_projects_only.pdf" target="_blank" rel="noreferrer">Projects CV</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/rakesh-nagaragatta-jayanna/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+      <div class="hero-stats reveal delay1">
+        <article><strong>3+</strong><span data-i18n="stat_exp">Years Experience</span></article>
+        <article><strong>1000+</strong><span data-i18n="stat_docs">Enterprise Docs Processed</span></article>
+        <article><strong>35%</strong><span data-i18n="stat_perf">Pipeline Runtime Reduction</span></article>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal">
+      <h2 data-i18n="about_title">About Me</h2>
+      <p data-i18n="about_text">Data professional with experience across data engineering, machine learning, analytics, and applied GenAI. I have built RAG assistants, ETL pipelines, document AI systems, and predictive models using Python, SQL, Spark, Azure, and modern LLM tooling.</p>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <h2 data-i18n="skills_title">Core Skills</h2>
+      <div class="chips" id="skillChips"></div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="section-head">
+        <h2 data-i18n="projects_title">Selected Projects</h2>
+        <a class="btn ghost" href="https://github.com/Rakesh9901491946/Projects" target="_blank" rel="noreferrer" data-i18n="projects_cta">View Full GitHub</a>
+      </div>
+      <div id="projectGrid" class="project-grid"></div>
+    </section>
+
+    <section class="section reveal">
+      <h2 data-i18n="thesis_title">Master Thesis Demo</h2>
+      <p data-i18n="thesis_text">Live Hugging Face space showcasing my model deployment and experimentation workflow.</p>
+      <a class="btn primary" href="https://huggingface.co/spaces/RakeshNJ12345/abc?logs=container" target="_blank" rel="noreferrer">Open Hugging Face Space</a>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <h2 data-i18n="contact_title">Let’s Connect</h2>
+      <p><a href="mailto:rakeshnagaragattajayanna@gmail.com">rakeshnagaragattajayanna@gmail.com</a> | Mannheim, Germany</p>
+      <p>
+        <a href="https://www.linkedin.com/in/rakesh-nagaragatta-jayanna/" target="_blank" rel="noreferrer">LinkedIn</a>
+        ·
+        <a href="https://github.com/Rakesh9901491946" target="_blank" rel="noreferrer">GitHub</a>
+      </p>
+    </section>
+  </main>
+
+  <button id="chatOpen" class="chat-open">AI Recruiter Assistant</button>
+  <section id="chatbot" class="chatbot hidden">
+    <header>
+      <h3 data-i18n="chat_title">Ask About Rakesh</h3>
+      <button id="chatClose">×</button>
+    </header>
+    <div id="chatLog" class="chat-log"></div>
+    <form id="chatForm">
+      <input id="chatInput" type="text" placeholder="Ask about skills, projects, impact..." required />
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <script src="./assets/app.js"></script>
+</body>
+</html>
