@@ -1,77 +1,98 @@
 const translations = {
   en: {
     nav_about: "About", nav_skills: "Skills", nav_projects: "Projects", nav_contact: "Contact",
-    hero_tag: "AI Engineer | Data Professional | RAG & LLM Applications",
-    hero_title: "Building practical AI systems that create measurable business impact.",
-    hero_desc: "I design production-minded AI and data solutions across retrieval systems, cloud pipelines, and applied ML. Open to AI Engineer, Data Scientist, and Data Engineer roles in Germany.",
+    hero_tag: "AI + Data Engineer | RAG | MLOps | Cloud Pipelines",
+    hero_title: "Designing AI products and data platforms that scale from prototype to production.",
+    hero_desc: "I build recruiter-ready outcomes: LLM applications, retrieval systems, ETL/ELT pipelines, and model-backed analytics workflows. I combine software engineering discipline with practical AI delivery across Python, SQL, Spark, Azure, and modern GenAI tooling.",
     hero_cta_projects: "Explore Projects",
     stat_exp: "Years Experience", stat_docs: "Enterprise Docs Processed", stat_perf: "Pipeline Runtime Reduction",
     about_title: "About Me",
-    about_text: "Data professional with experience across data engineering, machine learning, analytics, and applied GenAI. I have built RAG assistants, ETL pipelines, document AI systems, and predictive models using Python, SQL, Spark, Azure, and modern LLM tooling.",
+    about_text: "I am an AI + Data Engineer with 3+ years of experience delivering applied machine learning and end-to-end data systems. My work spans RAG assistants, document intelligence pipelines, medical and vision-language modeling, and business analytics platforms. I focus on reliable systems with data quality, observability, and deployment readiness.",
     skills_title: "Core Skills", projects_title: "Selected Projects", projects_cta: "View Full GitHub",
     thesis_title: "Master Thesis Demo", thesis_text: "Live Hugging Face space showcasing my model deployment and experimentation workflow.",
-    contact_title: "Let’s Connect", chat_title: "Ask About Rakesh"
+    contact_title: "Let’s Connect", chat_title: "Ask About Rakesh",
+    chat_placeholder: "Ask about AI projects, data engineering, impact, or availability..."
   },
   de: {
     nav_about: "Über mich", nav_skills: "Fähigkeiten", nav_projects: "Projekte", nav_contact: "Kontakt",
-    hero_tag: "AI Engineer | Data Professional | RAG- & LLM-Anwendungen",
-    hero_title: "Praxisnahe KI-Systeme mit messbarem Business-Impact.",
-    hero_desc: "Ich entwickle produktionsnahe KI- und Datenlösungen für Retrieval-Systeme, Cloud-Pipelines und angewandtes ML. Offen für Rollen als AI Engineer, Data Scientist und Data Engineer in Deutschland.",
+    hero_tag: "AI- und Data Engineer | RAG | MLOps | Cloud-Pipelines",
+    hero_title: "Ich entwickle KI-Produkte und Datenplattformen von Prototyp bis Produktion.",
+    hero_desc: "Ich liefere recruiter-relevante Ergebnisse: LLM-Anwendungen, Retrieval-Systeme, ETL/ELT-Pipelines und modellgestützte Analytics-Workflows. Dabei kombiniere ich Software-Engineering-Disziplin mit praxisnaher KI-Umsetzung in Python, SQL, Spark, Azure und modernem GenAI-Stack.",
     hero_cta_projects: "Projekte ansehen",
     stat_exp: "Jahre Erfahrung", stat_docs: "Verarbeitete Unternehmensdokumente", stat_perf: "Weniger Pipeline-Laufzeit",
     about_title: "Über mich",
-    about_text: "Datenprofi mit Erfahrung in Data Engineering, Machine Learning, Analytics und angewandter GenAI. Ich habe RAG-Assistenten, ETL-Pipelines, Document-AI-Systeme und Vorhersagemodelle mit Python, SQL, Spark, Azure und modernen LLM-Tools aufgebaut.",
+    about_text: "Ich bin AI- und Data Engineer mit mehr als 3 Jahren Erfahrung in angewandtem Machine Learning und End-to-End-Datensystemen. Meine Arbeit umfasst RAG-Assistenten, Document-Intelligence-Pipelines, medizinische Vision-Language-Modelle und Business-Analytics-Plattformen. Mein Fokus liegt auf zuverlässigen Systemen mit Datenqualität, Observability und produktionsreifem Deployment.",
     skills_title: "Kernkompetenzen", projects_title: "Ausgewählte Projekte", projects_cta: "Gesamtes GitHub ansehen",
     thesis_title: "Masterarbeits-Demo", thesis_text: "Live-Hugging-Face-Space zur Präsentation meines Modell-Deployments und Workflows.",
-    contact_title: "Kontakt", chat_title: "Fragen zu Rakesh"
+    contact_title: "Kontakt", chat_title: "Fragen zu Rakesh",
+    chat_placeholder: "Frage zu KI-Projekten, Data Engineering, Impact oder Verfügbarkeit..."
   }
 };
 
 const skills = [
-  "Python", "SQL", "PySpark", "Azure", "Databricks", "LangChain", "RAG", "LLMs", "OpenAI API", "Hugging Face", "Docker", "CI/CD", "Power BI", "FastAPI", "TensorFlow"
+  "Python", "SQL", "PySpark", "Azure", "Databricks", "LangChain", "RAG", "LLMs", "OpenAI API", "Hugging Face", "Docker", "CI/CD", "Power BI", "FastAPI", "TensorFlow", "MLOps"
 ];
 
 const projects = [
   {
     title: "Vision-Language Modeling for Chest X-ray Report Generation",
-    desc: "Two-view ViT + BioBART architecture for clinical impression generation from frontal/lateral X-rays.",
+    desc: "Two-view ViT + BioBART architecture for clinically meaningful impression generation from dual-view X-rays.",
     img: "./assets/images/vlm-method.png",
     link: "https://github.com/Rakesh9901491946/Vision-Language-Modeling-for-Chest-X-ray-Report-Generation",
     tags: ["ViT", "BioBART", "Healthcare AI"]
   },
   {
     title: "Azure AI-Powered Document Extraction Pipeline",
-    desc: "Scalable PDF extraction with Azure Durable Functions, GPT-4 Vision, monitoring and retries.",
+    desc: "Production-oriented PDF extraction pipeline with Azure Durable Functions, GPT-4 Vision, retries, monitoring and CI/CD.",
     img: "./assets/images/azure-doc-flow.png",
     link: "https://github.com/Rakesh9901491946/Projects/tree/main/Azure%20AI-Powered%20Document%20Extraction%20Pipeline",
     tags: ["Azure", "Document AI", "CI/CD"]
   },
   {
     title: "Medical Q&A Chatbot (MedQuAD)",
-    desc: "Domain-aware RAG chatbot using embeddings + vector retrieval for reliable medical responses.",
+    desc: "Domain-aware medical RAG chatbot with vector retrieval for grounded, explainable responses.",
     img: "./assets/images/ocr-output.png",
     link: "https://github.com/Rakesh9901491946/Projects/tree/main/Medical%20Q%26A%20Chatbot%20using%20MedQuAD",
     tags: ["RAG", "LangChain", "Streamlit"]
   },
   {
     title: "Olympics Data Analysis Dashboard",
-    desc: "Interactive Power BI dashboard for historical, country-level and athlete-level Olympic insights.",
+    desc: "Interactive Power BI storytelling dashboard for country-wise and athlete-level Olympic trends.",
     img: "./assets/images/olympics-overview.png",
     link: "https://github.com/Rakesh9901491946/Projects/tree/main/Olympics_Data_Analysis%20using%20Power%20BI",
-    tags: ["Power BI", "Analytics", "Storytelling"]
+    tags: ["Power BI", "Analytics", "Data Storytelling"]
   },
   {
     title: "Spotify Data Analysis using SQL",
-    desc: "Schema-driven SQL exploration for trend and behavior insights on Spotify data.",
+    desc: "Schema-first SQL analytics project turning raw Spotify tables into decision-friendly insights.",
     img: "./assets/images/spotify-schema.png",
     link: "https://github.com/Rakesh9901491946/Projects/tree/main/Spotify%20Data%20Analysis%20Using%20SQL",
     tags: ["SQL", "Data Modeling", "Insights"]
   }
 ];
 
+const kb = {
+  impact: "Rakesh improved data workflows with up to 35% lower pipeline runtime and built AI retrieval systems over 1000+ enterprise documents.",
+  experience: "He has 3+ years across KPMG and AI internship roles, delivering ETL pipelines, analytics platforms, RAG assistants, and production-ready PoCs.",
+  skills: "Core stack: Python, SQL, Spark/PySpark, Azure, Databricks, LangChain, RAG, vector databases, Docker, CI/CD, MLOps, Power BI.",
+  projects: "Featured projects: chest X-ray vision-language modeling, Azure document AI extraction, medical RAG chatbot, and business dashboards.",
+  thesis: "Master thesis demo is deployed on Hugging Face Space: RakeshNJ12345/abc.",
+  roles: "Target roles: AI Engineer, Data Engineer, Applied ML Engineer, and GenAI Engineer in Germany.",
+  contact: "Email: rakeshnagaragattajayanna@gmail.com | LinkedIn: rakesh-nagaragatta-jayanna | Location: Mannheim, Germany"
+};
+
+const fallback = "Rakesh specializes in AI + Data Engineering with measurable business outcomes. Ask about skills, projects, impact, thesis, roles, or contact.";
+
 let currentLang = "en";
 const projectGrid = document.getElementById("projectGrid");
 const skillChips = document.getElementById("skillChips");
+const chatOpen = document.getElementById("chatOpen");
+const chatClose = document.getElementById("chatClose");
+const chatbot = document.getElementById("chatbot");
+const chatForm = document.getElementById("chatForm");
+const chatInput = document.getElementById("chatInput");
+const chatLog = document.getElementById("chatLog");
+const chatSuggestions = document.getElementById("chatSuggestions");
 
 function setLang(lang) {
   currentLang = lang;
@@ -79,8 +100,10 @@ function setLang(lang) {
     const key = el.dataset.i18n;
     if (translations[lang][key]) el.textContent = translations[lang][key];
   });
+  chatInput.placeholder = translations[lang].chat_placeholder;
   document.getElementById("enBtn").classList.toggle("active", lang === "en");
   document.getElementById("deBtn").classList.toggle("active", lang === "de");
+  renderSuggestionChips();
 }
 
 function renderSkills() {
@@ -94,9 +117,10 @@ function renderSkills() {
 
 function renderProjects() {
   projectGrid.innerHTML = "";
-  projects.forEach((p) => {
+  projects.forEach((p, idx) => {
     const card = document.createElement("article");
-    card.className = "project";
+    card.className = "project reveal";
+    card.style.animationDelay = `${0.08 * idx}s`;
     card.innerHTML = `
       <img src="${p.img}" alt="${p.title}" />
       <div class="content">
@@ -110,21 +134,6 @@ function renderProjects() {
   });
 }
 
-const chatOpen = document.getElementById("chatOpen");
-const chatClose = document.getElementById("chatClose");
-const chatbot = document.getElementById("chatbot");
-const chatForm = document.getElementById("chatForm");
-const chatInput = document.getElementById("chatInput");
-const chatLog = document.getElementById("chatLog");
-
-const kb = {
-  experience: "Rakesh has 3+ years across KPMG and AI internship work, delivering ETL, analytics, and GenAI solutions.",
-  skills: "Key strengths: Python, SQL, Spark/PySpark, Azure, Databricks, LangChain, RAG, LLM APIs, Docker, CI/CD, Power BI.",
-  projects: "Notable projects include VLM for chest X-ray reporting, Azure Document AI pipeline, MedQuAD chatbot, and BI analytics dashboards.",
-  thesis: "Master thesis showcase is available on Hugging Face Space: RakeshNJ12345/abc.",
-  contact: "Email: rakeshnagaragattajayanna@gmail.com, LinkedIn: rakesh-nagaragatta-jayanna"
-};
-
 function addMsg(text, who = "bot") {
   const d = document.createElement("div");
   d.className = `msg ${who}`;
@@ -135,19 +144,48 @@ function addMsg(text, who = "bot") {
 
 function answer(q) {
   const s = q.toLowerCase();
-  if (s.includes("skill") || s.includes("tech")) return kb.skills;
-  if (s.includes("project") || s.includes("portfolio")) return kb.projects;
-  if (s.includes("thesis") || s.includes("hugging")) return kb.thesis;
-  if (s.includes("contact") || s.includes("email") || s.includes("linkedin")) return kb.contact;
-  if (s.includes("experience") || s.includes("kpmg") || s.includes("intern")) return kb.experience;
-  return "Rakesh focuses on practical AI + data systems. Ask me about skills, projects, thesis, experience, or contact details.";
+  const has = (...keys) => keys.some((k) => s.includes(k));
+
+  if (has("impact", "result", "business", "value", "outcome", "mehrwert")) return kb.impact;
+  if (has("skill", "stack", "tech", "tools", "fähigkeit", "technologie")) return kb.skills;
+  if (has("project", "portfolio", "case study", "referenz")) return kb.projects;
+  if (has("thesis", "hugging", "model", "master")) return kb.thesis;
+  if (has("role", "position", "open", "job", "available", "verfügbar")) return kb.roles;
+  if (has("experience", "kpmg", "intern", "exp", "erfahrung")) return kb.experience;
+  if (has("contact", "email", "linkedin", "reach", "kontakt")) return kb.contact;
+
+  return fallback;
+}
+
+function renderSuggestionChips() {
+  const suggestions = currentLang === "de"
+    ? ["Welche KI-Projekte?", "Data-Engineering Impact?", "Tech-Stack?", "Für welche Rollen offen?"]
+    : ["Best AI projects?", "Data engineering impact?", "Tech stack?", "Open to which roles?"];
+
+  chatSuggestions.innerHTML = "";
+  suggestions.forEach((text) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.textContent = text;
+    btn.onclick = () => {
+      addMsg(text, "user");
+      addMsg(answer(text), "bot");
+    };
+    chatSuggestions.appendChild(btn);
+  });
 }
 
 chatOpen.onclick = () => {
   chatbot.classList.remove("hidden");
-  if (!chatLog.children.length) addMsg("Hi, I am the recruiter assistant. Ask me what Rakesh can build.");
+  if (!chatLog.children.length) {
+    addMsg(currentLang === "de"
+      ? "Hallo, ich bin der Recruiter-Assistent. Frag mich nach Skills, Projekten, Impact oder Verfügbarkeit."
+      : "Hi, I am the recruiter assistant. Ask me about skills, projects, impact, or role fit.");
+  }
 };
+
 chatClose.onclick = () => chatbot.classList.add("hidden");
+
 chatForm.onsubmit = (e) => {
   e.preventDefault();
   const q = chatInput.value.trim();
