@@ -115,6 +115,43 @@ h1 { font-size: clamp(2rem, 4vw, 3.4rem); line-height: 1.08; margin: 8px 0 12px;
 .section { margin-top: 64px; }
 .section h2 { font-size: 1.8rem; margin-bottom: 14px; }
 .section p { color: var(--muted); }
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 12px;
+  margin-top: 18px;
+}
+.contact-link {
+  display: grid;
+  gap: 6px;
+  min-height: 82px;
+  padding: 14px;
+  color: #e6f6ff;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+  background: linear-gradient(145deg, rgba(10, 38, 66, 0.88), rgba(9, 24, 47, 0.9));
+  border: 1px solid rgba(56, 189, 248, 0.28);
+  border-radius: 8px;
+  transition: transform .2s ease, border-color .2s ease, background .2s ease;
+}
+.contact-link:hover {
+  transform: translateY(-3px);
+  border-color: rgba(52, 211, 153, 0.75);
+  background: linear-gradient(145deg, rgba(10, 55, 83, 0.95), rgba(8, 31, 55, 0.95));
+}
+.contact-label {
+  color: var(--brand2);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.contact-location {
+  cursor: default;
+}
+.contact-location:hover {
+  transform: none;
+}
 .chips { display: flex; gap: 10px; flex-wrap: wrap; }
 .chips span {
   background: rgba(3, 105, 161, 0.24);
