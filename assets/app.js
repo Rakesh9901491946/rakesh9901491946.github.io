@@ -70,7 +70,7 @@ const projects = [
   {
     title: "Medical Q&A Chatbot (MedQuAD)",
     desc: "Domain-aware medical RAG chatbot with vector retrieval for grounded, explainable responses.",
-    img: "./assets/images/ocr-output.png",
+    img: "./assets/images/medical-qa-chatbot.svg",
     link: "https://github.com/Rakesh9901491946/Projects/tree/main/Medical%20Q%26A%20Chatbot%20using%20MedQuAD",
     tags: ["RAG", "LangChain", "Streamlit"],
     cat: ["genai"]
@@ -134,7 +134,7 @@ const projects = [
   {
     title: "Azure End-to-End Data Engineering Project",
     desc: "End-to-end Azure pipeline using Data Factory, Data Lake, Databricks and PySpark for business-ready Power BI reporting.",
-    img: "./assets/images/azure-e2e-de.svg",
+    img: "./assets/images/azure-e2e-architecture.jpg",
     link: "https://github.com/Rakesh9901491946/Projects/tree/main/Azure%20End-to-End%20Data%20Engineering%20Project%20%7C%20AdventureWorks%20Dataset",
     tags: ["Azure Data Factory", "Databricks", "Power BI"],
     cat: ["data-engineering"]
