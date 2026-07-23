@@ -94,6 +94,7 @@ const projects = [
   {
     title: "Compass – Agentic Demand Planning & Decision Memory",
     desc: "Hackathon project: human-in-the-loop demand planning where specialised AI agents give evidence-based recommendations, reconciled by Claude Opus 4.8, with decision memory in DuckDB.",
+    img: "./assets/images/compass-agentic.svg",
     link: "https://github.com/Rakesh9901491946/Compass-a-human-centred-agentic-demand-planning-system",
     tags: ["Multi-Agent", "Claude API", "DuckDB"],
     cat: ["genai"]
@@ -101,6 +102,7 @@ const projects = [
   {
     title: "Dynamic Content Generation with RAG",
     desc: "RAG application that searches, summarizes, and answers questions from internal documents via embedding-based retrieval.",
+    img: "./assets/images/rag-application.svg",
     link: "https://github.com/Rakesh9901491946/Projects/tree/0de306c9e3b84cd564b5cb11604b911338219e12/RAG_Application",
     tags: ["RAG", "LangChain", "FAISS"],
     cat: ["genai"]
@@ -108,6 +110,7 @@ const projects = [
   {
     title: "Aircraft Engine Remaining Useful Life Prediction",
     desc: "LSTM-based time-series model predicting Remaining Useful Life on the NASA Turbofan dataset for predictive maintenance.",
+    img: "./assets/images/aircraft-rul.svg",
     link: "https://github.com/Rakesh9901491946/Projects/tree/main/Predicting%20Lifespan%20Of%20Aircraft%20Engine%20using%20LSTM",
     tags: ["LSTM", "Time-Series", "Predictive Maintenance"],
     cat: ["ai-ml"]
@@ -115,6 +118,7 @@ const projects = [
   {
     title: "Fashion Image Generation using GANs",
     desc: "Generative adversarial network producing realistic fashion images from Fashion MNIST, tuned for training stability.",
+    img: "./assets/images/fashion-gan.svg",
     link: "https://github.com/Rakesh9901491946/Projects/tree/main/Fashion%20Image%20Generation%20using%20Generative%20Adversarial%20Networks%20(GANs)",
     tags: ["GANs", "TensorFlow", "Computer Vision"],
     cat: ["ai-ml"]
@@ -122,6 +126,7 @@ const projects = [
   {
     title: "Extract Text from Images using Tesseract OCR",
     desc: "Python OCR pipeline extracting text from images and PDFs, with OpenCV preprocessing for accuracy and batch processing.",
+    img: "./assets/images/ocr-tesseract.svg",
     link: "https://github.com/Rakesh9901491946/Projects/tree/main/Extract-Text-from-images-using-Tesseract-OCR",
     tags: ["OCR", "OpenCV", "NLP Prep"],
     cat: ["ai-ml"]
@@ -129,6 +134,7 @@ const projects = [
   {
     title: "Azure End-to-End Data Engineering Project",
     desc: "End-to-end Azure pipeline using Data Factory, Data Lake, Databricks and PySpark for business-ready Power BI reporting.",
+    img: "./assets/images/azure-e2e-de.svg",
     link: "https://github.com/Rakesh9901491946/Projects/tree/main/Azure%20End-to-End%20Data%20Engineering%20Project%20%7C%20AdventureWorks%20Dataset",
     tags: ["Azure Data Factory", "Databricks", "Power BI"],
     cat: ["data-engineering"]
@@ -136,6 +142,7 @@ const projects = [
   {
     title: "King County House Sales Dashboard",
     desc: "Dynamic Tableau dashboard analyzing King County house sales with interactive filters for date, size and build year.",
+    img: "./assets/images/king-county-tableau.svg",
     link: "https://github.com/Rakesh9901491946/Projects/tree/main/King%20County%20House%20Sales%20Dashboard",
     tags: ["Tableau", "Real Estate Analytics", "Dashboards"],
     cat: ["data-science"]
@@ -143,6 +150,7 @@ const projects = [
   {
     title: "Customer Ad-Hoc Analysis for Atliq Hardwares",
     desc: "SQL-based ad-hoc analysis answering 10+ business questions on sales trends, top channels and product performance.",
+    img: "./assets/images/atliq-sql.svg",
     link: "https://github.com/Rakesh9901491946/Projects/tree/main/Project-Customer-Ad-Hoc-Analysis",
     tags: ["SQL", "Business Analytics", "Insights"],
     cat: ["data-science"]

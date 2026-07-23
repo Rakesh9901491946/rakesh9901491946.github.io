@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4a3007"/>
+      <stop offset="100%" stop-color="#241705"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="30%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1.4" fill="#ffffff" opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="340" fill="url(#bg)"/>
+  <rect width="800" height="340" fill="url(#grid)"/>
+  <rect width="800" height="340" fill="url(#glow)"/>
+
+  <!-- house with map pin -->
+  <g transform="translate(160,175)" stroke="#ffe6a3" stroke-width="5" fill="#3d2707">
+    <path d="M-55,10 L0,-40 L55,10 V55 H-55 Z"/>
+    <rect x="-15" y="10" width="30" height="45" fill="#4a2e05"/>
+  </g>
+  <g transform="translate(230,110)" stroke="#fbbf24" stroke-width="4" fill="#fbbf24" fill-opacity="0.25">
+    <path d="M0,-28 a20,20 0 1 1 -0.1,0 Z"/>
+    <circle r="7" fill="#fbbf24" fill-opacity="0.9"/>
+    <path d="M0,-8 L0,20" stroke-opacity="0.9"/>
+  </g>
+
+  <!-- dashboard tiles -->
+  <g stroke="#ffe6a3" stroke-width="3" fill="#3d2707">
+    <rect x="360" y="80" width="190" height="110" rx="10"/>
+    <rect x="565" y="80" width="175" height="110" rx="10"/>
+    <rect x="360" y="205" width="380" height="65" rx="10"/>
+  </g>
+  <!-- bar chart tile -->
+  <g fill="#fbbf24">
+    <rect x="385" y="150" width="16" height="25"/>
+    <rect x="415" y="130" width="16" height="45"/>
+    <rect x="445" y="110" width="16" height="65"/>
+    <rect x="475" y="140" width="16" height="35"/>
+    <rect x="505" y="120" width="16" height="55"/>
+  </g>
+  <!-- line chart tile -->
+  <polyline points="585,150 610,130 635,155 660,115 685,140 710,105"
+    fill="none" stroke="#fde68a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- kpi row -->
+  <g fill="#fde68a" opacity="0.85">
+    <rect x="385" y="235" width="60" height="14" rx="4"/>
+    <rect x="470" y="235" width="90" height="14" rx="4"/>
+    <rect x="585" y="235" width="70" height="14" rx="4"/>
+    <rect x="680" y="235" width="45" height="14" rx="4"/>
+  </g>
+</svg>

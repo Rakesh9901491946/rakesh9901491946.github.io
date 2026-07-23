@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c4433"/>
+      <stop offset="100%" stop-color="#06201a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1.4" fill="#ffffff" opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="340" fill="url(#bg)"/>
+  <rect width="800" height="340" fill="url(#grid)"/>
+  <rect width="800" height="340" fill="url(#glow)"/>
+
+  <!-- document stack -->
+  <g stroke="#8effc9" stroke-width="4" fill="#0d3a2c">
+    <rect x="100" y="130" width="110" height="140" rx="8"/>
+    <rect x="88" y="115" width="110" height="140" rx="8"/>
+    <rect x="76" y="100" width="110" height="140" rx="8"/>
+  </g>
+  <g stroke="#8effc9" stroke-width="4" opacity="0.8">
+    <line x1="96" y1="130" x2="156" y2="130"/>
+    <line x1="96" y1="155" x2="166" y2="155"/>
+    <line x1="96" y1="180" x2="146" y2="180"/>
+  </g>
+
+  <!-- arrow to embedding space -->
+  <g stroke="#8effc9" stroke-width="5" stroke-linecap="round">
+    <line x1="230" y1="170" x2="300" y2="170"/>
+    <polyline points="282,152 300,170 282,188" fill="none" stroke-linejoin="round"/>
+  </g>
+
+  <!-- embedding cluster -->
+  <circle cx="420" cy="170" r="90" fill="none" stroke="#34d399" stroke-width="3" stroke-dasharray="5 9" opacity="0.6"/>
+  <g fill="#8effc9">
+    <circle cx="390" cy="150" r="7"/>
+    <circle cx="430" cy="130" r="6"/>
+    <circle cx="450" cy="175" r="8"/>
+    <circle cx="400" cy="200" r="5"/>
+    <circle cx="440" cy="205" r="6"/>
+    <circle cx="410" cy="170" r="9" fill="#34d399"/>
+  </g>
+
+  <!-- arrow to answer -->
+  <g stroke="#8effc9" stroke-width="5" stroke-linecap="round">
+    <line x1="520" y1="170" x2="580" y2="170"/>
+    <polyline points="562,152 580,170 562,188" fill="none" stroke-linejoin="round"/>
+  </g>
+
+  <!-- chat bubble -->
+  <path d="M610,110 h130 a14,14 0 0 1 14,14 v80 a14,14 0 0 1 -14,14 h-95 l-25,26 v-26 h-10 a14,14 0 0 1 -14,-14 v-80 a14,14 0 0 1 14,-14 Z"
+    fill="#0d3a2c" stroke="#8effc9" stroke-width="4"/>
+  <g stroke="#8effc9" stroke-width="5" stroke-linecap="round" opacity="0.85">
+    <line x1="630" y1="145" x2="720" y2="145"/>
+    <line x1="630" y1="170" x2="700" y2="170"/>
+    <line x1="630" y1="195" x2="710" y2="195"/>
+  </g>
+</svg>
